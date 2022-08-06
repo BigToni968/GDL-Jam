@@ -975,6 +975,7 @@ GameObject:
   - component: {fileID: 1159838824}
   - component: {fileID: 1159838823}
   - component: {fileID: 1159838822}
+  - component: {fileID: 1159838862}
   m_Layer: 0
   m_Name: History
   m_TagString: Untagged
@@ -1013,7 +1014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -39.329094
     y: -27.468338
-    width: 106.81821
+    width: 104.68747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1038,21 +1039,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 671.75366, y: -323.86594}
+  scrollPos: {x: 712.1731, y: -25.280312}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.87999964
+  zoom: 0.64000034
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1159838809}
-  selectedCommands:
-  - {fileID: 1159838808}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -1171,7 +1170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -25.402512
     y: 28.043777
-    width: 78.4091
+    width: 78.124985
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1227,7 +1226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -25.19561
     y: 157.24458
-    width: 71.59092
+    width: 70.312485
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1437,7 +1436,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -47.65912
     y: 90.960815
-    width: 118.18185
+    width: 115.62496
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1565,7 +1564,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 127.49597
     y: 91.63687
-    width: 106.81821
+    width: 104.68747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1646,7 +1645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -43.768433
     y: 254.23706
-    width: 112.50003
+    width: 110.93747
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1657,6 +1656,7 @@ MonoBehaviour:
   commandList:
   - {fileID: 1159838624}
   - {fileID: 1159838819}
+  - {fileID: 1159838862}
   suppressAllAutoSelections: 0
 --- !u!114 &1159838646
 MonoBehaviour:
@@ -1674,7 +1674,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -42.839848
     y: 340.42157
-    width: 111.36366
+    width: 107.81247
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1752,11 +1752,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 219
   indentLevel: 0
-  storyText: "\u0417\u0432\u0443\u0447\u0438\u0442 \u043A\u043E\u043D\u0435\u0447\u043D\u043E
-    \u044D\u0442\u043E \u0441\u0442\u0440\u0430\u043D\u043D\u043E, \u0438\u0434\u0442\u0438
-    \u043D\u0430 \u0441\u0432\u0435\u0442 \u043A\u043E\u0433\u0434\u0430 \u0432\u043E\u043A\u0440\u0443\u0433
-    \u0438\u0437\r\n\u0441\u0432\u0435\u0442\u043B\u043E\u0433\u043E \u0442\u043E\u043B\u044C\u043A\u043E
-    \u0442\u0443\u043C\u0430\u043D.\r"
+  storyText: Of course, it sounds strange to go to the light when all that is around
+    is fog, and the light is just fog.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1785,7 +1782,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 526.9933
     y: 1380.9775
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1832,10 +1829,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 216
   indentLevel: 0
-  storyText: "\u041D\u043E \u043A\u0443\u0434\u0430 \u043D\u0430 \u0441\u0432\u0435\u0442,
-    \u0432\u043E\u043A\u0440\u0443\u0433 \u043B\u0438\u0448\u044C \u0442\u0443\u043C\u0430\u043D,
-    \u044F \u0434\u0430\u0436\u0435 \u043D\u0435 \u0437\u043D\u0430\u044E \u043E\u043A\u043E\u043D\u0447\u0438\u0442\u044C\u0441\u044F\r\n\u043B\u0438
-    \u043E\u043D \u043A\u043E\u0433\u0434\u0430 \u043D\u0435 \u0431\u0443\u0434\u044C."
+  storyText: But where to the light, there's only fog all around, I don't even know
+    if it will ever end.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1864,7 +1859,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 421.3383
     y: 1383.5596
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1912,7 +1907,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 0
-  storyText: "\"\u0422\u0435\u0431\u0435 \u043D\u0443\u0436\u043D\u043E \u0438\u0434\u0442\u0438\"\r"
+  storyText: '"You have to go."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -1941,7 +1936,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 410.60437
     y: 1326.1237
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1990,7 +1985,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  storyText: "\"\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u043D\u0435 \u043C\u043D\u043E\u0433\u043E\""
+  storyText: '"Not much left."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2019,7 +2014,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 516.84534
     y: 1320.358
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2071,9 +2066,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: "\u0415\u0441\u043B\u0438 \u044F \u044D\u0442\u043E\u0433\u043E  \u043D\u0435
-    \u0441\u0434\u0435\u043B\u0430\u044E, \u044F \u043E\u0441\u0442\u0430\u043D\u0443\u0441\u044C
-    \u0437\u0434\u0435\u0441\u044C \u043D\u0430 \u0432\u0441\u0435\u0433\u0434\u0430.\r"
+  storyText: If I don't, I'll stay here forever.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2102,7 +2095,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 513.4762
     y: 1257.6696
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2151,8 +2144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 204
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u0436\u0435 \u044F \u0437\u0434\u0435\u043B\u0430\u043B
-    \u043D\u0435 \u0442\u0430\u043A.\r"
+  storyText: What have I done wrong?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2181,7 +2173,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 414.026
     y: 1253.4945
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2228,9 +2220,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 201
   indentLevel: 0
-  storyText: "\u042F \u0441\u043B\u044B\u0448\u0430\u043B \u0433\u043E\u043B\u043E\u0441\u0430
-    \u0438\u0437 \u043D\u0438\u043E\u0442\u043A\u0443\u0434\u0430, \u0441\u0442\u0430\u0440\u0430\u044F\u0441\u044C
-    \u043D\u0435 \u043E\u0431\u043E\u0440\u0430\u0447\u0438\u0432\u0430\u0442\u044C\u0441\u044F."
+  storyText: I heard voices from nowhere, trying not to turn around.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2259,7 +2249,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.3338
     y: 1194.8129
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2306,12 +2296,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 198
   indentLevel: 0
-  storyText: "\u042F \u043D\u0435\u043C\u043D\u043E\u0433\u043E \u043E\u0442\u0441\u0442\u0430\u043B
-    \u043E\u0442 \u043D\u0438\u0445 \u043D\u043E \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
-    \u0438\u0434\u0442\u0438 \u0434\u0430\u043B\u044C\u0448\u0435, \u043F\u043E\u0445\u043E\u0436\u0435
-    \u043C\u043D\u0435\r\n\u0437\u0434\u0435\u0441\u044C \u043D\u0435 \u0445\u043E\u0442\u044F\u0442
-    \u043F\u043E\u043C\u043E\u0433\u0430\u0442\u044C, \u044F \u0434\u043E\u043B\u0436\u0435\u043D
-    \u0441\u0430\u043C \u043D\u0430\u0439\u0442\u0438 \u0441\u0432\u043E\u0435 \u0442\u0435\u043B\u043E."
+  storyText: I'm a little behind them, but I need to keep going, it seems they don't
+    want to help me here, I have to find my own body.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2340,7 +2326,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 506.33344
     y: 1196.2413
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2387,7 +2373,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 195
   indentLevel: 0
-  storyText: "\"\u0422\u0435\u0431\u0435 \u043D\u0435 \u0443\u0439\u0442\u0438\""
+  storyText: '"You can''t leave."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2416,7 +2402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 422.19055
     y: 1132.3855
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2466,7 +2452,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: "\u041A\u0430\u043A \u0442\u0430\u043A\u043E\u0435 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E."
+  storyText: How is that possible.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2495,7 +2481,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 505.1908
     y: 1132.6713
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2545,8 +2531,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: "\u041E\u0441\u0442\u0430\u043B\u043E\u0441\u044C \u0441\u043E\u0432\u0441\u0435\u043C
-    \u043D\u0435\u043C\u043D\u043E\u0433\u043E, \u044F \u0443\u0436\u0435 \u0442\u0430\u043C"
+  storyText: Not much left, I'm already there.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2575,7 +2560,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 416.6194
     y: 1065.6707
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2622,7 +2607,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 186
   indentLevel: 0
-  storyText: "\"\u041C\u043D\u0435 \u0436\u0430\u043B\u044C\""
+  storyText: '"I am sorry."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2651,7 +2636,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 502.3335
     y: 1067.6709
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2700,11 +2685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 183
   indentLevel: 0
-  storyText: "\u041E\u043D \u043C\u043E\u0436\u0435\u0442 \u0438\u0441\u0447\u0435\u0437\u043D\u0443\u0442\u044C,
-    \u043A\u0430\u043A \u0432 \u043F\u0440\u043E\u0448\u043B\u044B\u0439 \u0440\u0430\u0437,
-    \u0438 \u044F \u043D\u0435 \u0441\u043C\u043E\u0433\u0443 \u0442\u0430\u043A
-    \u0434\u043E\u043B\u0433\u043E\r\n\u0445\u043E\u0434\u0438\u0442\u044C \u0437\u0434\u0435\u0441\u044C
-    \u0438 \u0438\u0441\u043A\u0430\u0442\u044C \u0435\u0433\u043E, \u0441\u043D\u043E\u0432\u0430.\r"
+  storyText: He could disappear like he did last time, and I wouldn't be able to
+    to walk around looking for him again.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2733,7 +2715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 502.33362
     y: 997.95654
-    width: 65.909096
+    width: 65.62499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2780,8 +2762,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 0
-  storyText: "\"\u041D\u0435\u0442, \u043D\u0435 \u0432 \u044D\u0442\u043E\u0442
-    \u0440\u0430\u0437\""
+  storyText: '"No, not this time.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2810,7 +2791,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 415.19095
     y: 1000.81396
-    width: 65.909096
+    width: 65.62499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2857,8 +2838,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: "\u041D\u043E \u043F\u043E\u0447\u0435\u043C\u0443, \u043A\u0430\u043A
-    \u044D\u0442\u043E \u0432\u043E\u043E\u0431\u0449\u0435 \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E."
+  storyText: But why, how is it even possible.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2887,7 +2867,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 417.19037
     y: 937.3857
-    width: 63.636368
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2935,8 +2915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 174
   indentLevel: 0
-  storyText: "\"\u041D\u0435 \u0441\u0432\u043E\u0434\u0438 \u0441 \u043D\u0435\u0433\u043E
-    \u0433\u043B\u0430\u0437\""
+  storyText: '"Don''t take your eyes off him."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -2965,7 +2944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 502.90497
     y: 938.8138
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3014,14 +2993,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 0
-  storyText: "\u041D\u043E \u043C\u043E\u0439 \u0433\u043E\u043B\u043E\u0441 \u0431\u044B\u043B
-    \u0442\u0438\u0448\u0435, \u0447\u0435\u043C \u043E\u0431\u044B\u0447\u043D\u043E,
-    \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E \u0440\u0430\u0437, \u044F
-    \u0434\u0430\u0436\u0435 \u043D\u0435\r\n\u0445\u043E\u0442\u0435\u043B \u0431\u043E\u043B\u044C\u0448\u0435,
-    \u044F \u043F\u0440\u043E\u0441\u0442\u043E \u0433\u043E\u0432\u043E\u0440\u0438\u043B
-    \u0448\u0435\u043F\u043E\u0442\u043E\u043C, \u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C,
-    \u0447\u0442\u043E \u0437\u0434\u0435\u0441\u044C\r\n\u043D\u0435\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E
-    \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C."
+  storyText: But my voice was quieter than usual a few times, I didn't even wanted
+    more, I just spoke in a whisper, it seemed like it was impossible to speak.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3048,9 +3021,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 503.19055
-    y: 865.957
-    width: 64.772736
+    x: 501.12872
+    y: 873.17346
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3097,13 +3070,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 168
   indentLevel: 0
-  storyText: "\u042F \u043C\u043E\u0433\u0443 \u0442\u043E\u043B\u044C\u043A\u043E
-    \u0431\u0435\u0436\u0430\u0442\u044C, \u043D\u043E \u043C\u043E\u0439 \u0431\u0435\u0433
-    \u0442\u043E\u0436\u0435 \u043D\u0435 \u0442\u0430\u043A\u043E\u0439, \u043A\u0430\u043A\u0438\u043C
-    \u0434\u043E\u043B\u0436\u0435\u043D\r\n\u0431\u044B\u0442\u044C, \u044F \u0441\u043E\u0432\u0441\u0435\u043C
-    \u043D\u0435 \u0443\u0441\u043A\u043E\u0440\u044F\u044E\u0441\u044C, \u044F \u0438\u0434\u0443
-    \u0432 \u0442\u043E\u043C \u0436\u0435 \u0442\u0435\u043C\u043F\u0435, \u0447\u0442\u043E
-    \u0438\r\n\u0440\u0430\u043D\u044C\u0448\u0435."
+  storyText: I can only run, but my running is also not what it should be, I don't
+    speed up at all, I walk at the same pace as before.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3130,9 +3098,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 416.04807
+    x: 415.01715
     y: 874.5285
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3179,13 +3147,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 165
   indentLevel: 0
-  storyText: "\u042F \u0443\u0441\u043A\u043E\u0440\u0438\u043B \u0448\u0430\u0433
-    \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u0442\u0435\u043D\u0438, \u043A\u043E\u0442\u043E\u0440\u0443\u044E
-    \u0437\u0430\u043C\u0435\u0442\u0438\u043B \u0432\u043F\u0435\u0440\u0435\u0434\u0438
-    \u0441\u0435\u0431\u044F,\r\n\u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
-    \u044F \u0441\u043C\u043E\u0433\u0443 \u0434\u043E\u0433\u043D\u0430\u0442\u044C
-    \u0435\u0433\u043E \u0438 \u0443\u0437\u043D\u0430\u0442\u044C, \u0447\u0442\u043E
-    \u044D\u0442\u043E \u0437\u0430 \u043C\u0435\u0441\u0442\u043E."
+  storyText: I took a quicker step toward the shadow I saw ahead of me, maybe I could
+    catch up with him and find out what this place was.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3214,7 +3177,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 412.33356
     y: 810.243
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3262,8 +3225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 162
   indentLevel: 0
-  storyText: "\"\u041F\u043E\u0434\u043E\u0436\u0434\u0438, \u044F \u043F\u0440\u043E\u0441\u0442\u043E
-    \u0445\u043E\u0447\u0443 \u0441\u043F\u0440\u043E\u0441\u0438\u0442\u044C\""
+  storyText: '"Wait, I just want to ask you."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3292,7 +3254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 498.04794
     y: 810.5289
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3339,11 +3301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 159
   indentLevel: 0
-  storyText: "\u042F \u043C\u043E\u0433\u0443 \u0442\u0430\u043A \u0438\u0434\u0442\u0438
-    \u043E\u0447\u0435\u043D\u044C \u0434\u043E\u043B\u0433\u043E, \u043C\u043D\u0435
-    \u043D\u0443\u0436\u043D\u043E \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C\u0441\u044F,
-    \u044F\r\n\u043D\u0430\u0447\u0438\u043D\u0430\u044E \u0437\u0430\u0431\u044B\u0432\u0430\u0442\u044C,
-    \u0447\u0442\u043E \u044F \u0445\u043E\u0442\u0435\u043B \u0441\u0434\u0435\u043B\u0430\u0442\u044C.\r"
+  storyText: I can go like this for a very long time, I need to stop, I I start to
+    forget what I wanted to do.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3372,7 +3331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 500.04776
     y: 747.1
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3419,8 +3378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 156
   indentLevel: 0
-  storyText: "\u042F \u0434\u0443\u043C\u0430\u044E, \u044F \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043B\u044C\u043D\u043E,
-    \u0432\u0438\u0436\u0443 \u043A\u043E\u0433\u043E-\u0442\u043E."
+  storyText: I think I do, indeed, see someone.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3449,7 +3407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 412.90512
     y: 751.3858
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3497,9 +3455,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 153
   indentLevel: 0
-  storyText: "\u0421\u0435\u0439\u0447\u0430\u0441 \u044D\u0442\u043E \u0431\u043E\u043B\u044C\u0448\u0435
-    \u043F\u043E\u0445\u043E\u0436\u0435 \u043D\u0430 \u043F\u0440\u0430\u0432\u0434\u0443,
-    \u043D\u043E \u043A\u0430\u043A \u043C\u043D\u0435 \u043F\u0440\u043E\u0441\u043D\u0443\u0442\u044C\u0441\u044F."
+  storyText: It's more like the truth now, but how do I wake up.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3528,7 +3484,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 409.19067
     y: 683.38574
-    width: 65.909096
+    width: 65.62499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3575,12 +3531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 150
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u0435\u0441\u043B\u0438 \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
-    \u043D\u0430\u0439\u0442\u0438 \u0437\u0434\u0435\u0441\u044C \u0442\u0435\u043D\u044C,
-    \u043A\u043E\u0442\u043E\u0440\u0443\u044E \u044F \u0432\u0438\u0434\u0435\u043B
-    \u0432 \u0441\u0430\u043C\u043E\u043C\r\n\u043D\u0430\u0447\u0430\u043B\u0435,
-    \u043F\u043E\u0434\u043E\u0436\u0434\u0438\u0442\u0435, \u043A\u043E\u0433\u0434\u0430
-    \u044D\u0442\u043E \u0431\u044B\u043B\u043E?\r"
+  storyText: What if I need to find the shadow here that I saw at the very beginning,
+    wait, when was it?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3609,7 +3561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 496.3335
     y: 684.8144
-    width: 65.909096
+    width: 65.62499
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3656,9 +3608,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 147
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u044F \u0441\u0434\u0435\u043B\u0430\u043B \u043D\u0435
-    \u0442\u0430\u043A \u0432 \u044D\u0442\u043E\u0442 \u0440\u0430\u0437, \u043A\u0430\u043A
-    \u044F \u043C\u043E\u0433 \u0441\u043E\u0437\u0434\u0430\u0442\u044C \u044D\u0442\u043E."
+  storyText: What did I do wrong this time, how could I create this.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3687,7 +3637,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 497.25742
     y: 617.90643
-    width: 63.636368
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3734,11 +3684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 144
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u0435\u0441\u043B\u0438 \u044F \u043D\u0435 \u043F\u043E\u043F\u0430\u043B
-    \u0432 \u0441\u0432\u043E\u0439 \u043C\u0438\u0440, \u0447\u0442\u043E \u0435\u0441\u043B\u0438
-    \u044F \u0441\u0434\u0435\u043B\u0430\u043B \u0447\u0442\u043E-\u0442\u043E \u043D\u0435\r\n\u0442\u0430\u043A
-    \u0438 \u044D\u0442\u043E \u0432\u0441\u0435\u0433\u043E \u043B\u0438\u0448\u044C
-    \u0441\u043E\u043D?\r"
+  storyText: What if I didn't get into my world, what if I did something wrong and
+    it's just a dream?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3767,7 +3714,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 408.33362
     y: 621.9572
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3814,8 +3761,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 141
   indentLevel: 0
-  storyText: "\u0422\u0443\u043C\u0430\u043D, \u043A\u0430\u043A \u0434\u043E\u043B\u0433\u043E
-    \u044F \u0431\u0443\u0434\u0443 \u0435\u0433\u043E \u0432\u0438\u0434\u0435\u0442\u044C."
+  storyText: Fog, how long will I see it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3844,7 +3790,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 402.97177
     y: 547.03375
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3891,7 +3837,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 138
   indentLevel: 0
-  storyText: "\u042D\u0442\u043E\u043C\u0443 \u043D\u0435\u0442 \u043A\u043E\u043D\u0446\u0430."
+  storyText: There's no end to it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -3920,7 +3866,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 491.19092
     y: 548.81464
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -3967,11 +3913,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 135
   indentLevel: 0
-  storyText: "\u041C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C, \u043C\u043D\u0435
-    \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043B\u043E \u0432\u0435\u0441\u0442\u0438
-    \u0434\u043D\u0435\u0432\u043D\u0438\u043A, \u044F \u043C\u043E\u0433 \u0431\u044B.\r\n\u041E\u043F\u0438\u0441\u0430\u0442\u044C,
-    \u0447\u0442\u043E \u044F \u0432\u0438\u0434\u0435\u043B \u0438 \u0434\u0435\u043B\u0430\u043B
-    \u0432 \u0441\u0432\u043E\u0438\u0445 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u044F\u0445.\r\n"
+  storyText: Maybe I should have kept a diary, I could have. Describe what I saw
+    and did in my travels.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4000,7 +3943,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 493.8303
     y: 479.50327
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4048,11 +3991,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 132
   indentLevel: 0
-  storyText: "\u041D\u043E \u043F\u043E\u0447\u0435\u043C\u0443? \u041D\u0435 \u044F
-    \u0436\u0435 \u0447\u0438\u0442\u0430\u044E \u0447\u0443\u0436\u0438\u0435 \u0434\u043D\u0435\u0432\u043D\u0438\u043A\u0438.\r\n\u041F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u043E,
-    \u043A \u0447\u0435\u0440\u0442\u0443 \u0432\u0441\u0435\u0445 \u0442\u0435\u0445,
-    \u043A\u0442\u043E \u043C\u0435\u043D\u044F \u043E\u0441\u0443\u0436\u0434\u0430\u0435\u0442,
-    \u043A\u0435\u043C \u043E\u043D\u0438 \u0441\u0435\u0431\u044F\r\n\u0432\u043E\u0437\u043E\u043C\u043D\u0438\u043B\u0438."
+  storyText: 'But why? I''m not the one who reads other people''s journals.
+
+    That''s
+    right, to hell with all those people who judge me, who they they think they are.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4081,7 +4023,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 404.61932
     y: 480.81442
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4128,11 +4070,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 129
   indentLevel: 0
-  storyText: "\u041C\u043D\u0435 \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u044F
-    \u043D\u0430\u0447\u0438\u043D\u0430\u044E \u0441\u0445\u043E\u0434\u0438\u0442\u044C
-    \u0441 \u0443\u043C\u0430, \u044D\u0442\u0430 \u0442\u0438\u0448\u0438\u043D\u0430,
-    \u043E\u043D\u0430 \u043C\u043E\u0436\u0435\u0442\r\n\u0441\u0432\u0435\u0441\u0442\u0438
-    \u043C\u0435\u043D\u044F \u0441 \u0443\u043C\u0430."
+  storyText: 'I think I''m starting to go crazy, this silence, it could it could
+    drive me crazy.
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4161,7 +4102,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 350.8644
     y: 412.4497
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4208,10 +4149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 126
   indentLevel: 0
-  storyText: "\u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E, \u043D\u0435\u0442,
-    \u044F \u0434\u043E\u043B\u0436\u0435\u043D \u0433\u043E\u0432\u043E\u0440\u0438\u0442\u044C
-    \u0441 \u0441\u043E\u0431\u043E\u0439, \u0447\u0442\u043E\u0431\u044B \u043D\u0435
-    \u0441\u043E\u0439\u0442\u0438 \u0441\r\n\u0443\u043C\u0430.\r"
+  storyText: I need, no, I have to talk to myself in order not to go mad.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4240,7 +4178,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 491.19092
     y: 411.38596
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4287,10 +4225,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 123
   indentLevel: 0
-  storyText: "\u041D\u043E \u043E\u0434\u043D\u043E \u044F \u0437\u043D\u0430\u044E
-    \u0442\u043E\u0447\u043D\u043E, \u044F \u0443\u0436\u0435 \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
-    \u0434\u043E\u043B\u0433\u043E \u043D\u0430\u0445\u043E\u0436\u0443\u0441\u044C
-    \u0432 \u043F\u0443\u0442\u0438.\r"
+  storyText: But one thing is for sure, I've been on the road long enough.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4319,7 +4254,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 48.06212
     y: 1291.6162
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4366,12 +4301,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 117
   indentLevel: 0
-  storyText: "\u041A\u0430\u043A \u0434\u0430\u043B\u0435\u043A\u043E \u044F \u0437\u0430\u0448\u0435\u043B?
-    \u041F\u0430\u0440\u0430 \u043C\u0438\u043D\u0443\u0442, \u043F\u0430\u0440\u0430
-    \u0447\u0430\u0441\u043E\u0432, \u0437\u0434\u0435\u0441\u044C \u0432\u0441\u0435
-    \u043F\u043E\u0434\u0440\u0443\u0433\u043E\u043C\u0443, \u0432\u0440\u0435\u043C\u044F
-    \u0438\u0434\u0435\u0442 \u0441\u0442\u0440\u0430\u043D\u043D\u043E, \u043D\u0435
-    \u0442\u0430\u043A, \u043A\u0430\u043A \u0434\u043E\u043B\u0436\u043D\u043E \u0438\u0434\u0442\u0438.\r"
+  storyText: How far have I come? A couple of minutes, a couple of hours, everything
+    is different here, time goes strange, not the way it should go.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4400,7 +4331,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -73.14608
     y: 1291.3549
-    width: 64.772736
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4447,7 +4378,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 111
   indentLevel: 0
-  storyText: "\u041C\u043D\u0435 \u0437\u0434\u0435\u0441\u044C \u043D\u0435 \u043C\u0435\u0441\u0442\u043E."
+  storyText: I don't belong here.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4476,7 +4407,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -74.917915
     y: 1214.8439
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4523,12 +4454,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u0431\u044B \u044D\u0442\u043E \u043D\u0438 \u0431\u044B\u043B\u043E,
-    \u044F \u0434\u043E\u043B\u0436\u0435\u043D \u0431\u044B\u043B \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0442\u044C
-    \u0438\u0434\u0442\u0438, \u044F \u0434\u043E\u043B\u0436\u0435\u043D\r\n\u0431\u044B\u043B,
-    \u044F \u043F\u0440\u043E\u0441\u0442\u043E \u0434\u043E\u043B\u0436\u0435\u043D
-    \u0431\u044B\u043B \u043F\u043E\u043A\u0438\u043D\u0443\u0442\u044C \u044D\u0442\u043E
-    \u0442\u0435\u043C\u043D\u043E\u0435 \u043C\u0435\u0441\u0442\u043E.\r"
+  storyText: Whatever it was, I had to keep going, I had to had to, I just had to
+    get out of that dark place.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4557,7 +4484,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 11.5106125
     y: 1212.7021
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4604,11 +4531,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 99
   indentLevel: 0
-  storyText: "\u0421\u0432\u043E\u0438\u043C \u0445\u0440\u0438\u043F\u043B\u044B\u043C
-    \u0433\u043E\u043B\u043E\u0441\u043E\u043C \u0438\u043B\u0438 \u043F\u043E\u043F\u044B\u0442\u043A\u043E\u0439
-    \u0432\u0434\u043E\u0445\u043D\u0443\u0442\u044C \u0432\u043E\u0437\u0434\u0443\u0445,
-    \u043D\u0430\u0434\u0435\u044F\u0441\u044C,\r\n\u0447\u0442\u043E \u0431\u043E\u043B\u044C
-    \u0443\u0442\u0438\u0445\u043D\u0435\u0442.\r"
+  storyText: With his hoarse voice or his attempt to breathe in air, hoping, that
+    the pain will subside.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4637,7 +4561,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 12.182846
     y: 1137.4083
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4684,10 +4608,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 93
   indentLevel: 0
-  storyText: "\u0412\u043E\u0437\u043C\u043E\u0436\u043D\u043E, \u043F\u043E\u043A\u0430
-    \u044F \u043F\u044B\u0442\u0430\u043B\u0441\u044F \u043A\u0440\u0438\u0447\u0430\u0442\u044C,
-    \u043E\u043D \u0443\u0436\u0435 \u0443\u0448\u0435\u043B. \u0418\u043B\u0438
-    \u044F \u043D\u0430\u043F\u0443\u0433\u0430\u043B\r\n\u0435\u0433\u043E?\r"
+  storyText: Maybe while I was trying to scream, he was already gone. Or did I scare
+    him?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4716,7 +4638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -77.060875
     y: 1132.1985
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4763,9 +4685,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: "\u0411\u043E\u043B\u044C \u0432 \u0433\u0440\u0443\u0434\u0438 \u043C\u0435\u0448\u0430\u043B\u0430
-    \u043C\u043D\u0435 \u0441\u043E\u0441\u0440\u0435\u0434\u043E\u0442\u043E\u0447\u0438\u0442\u044C\u0441\u044F
-    \u043D\u0430 \u0442\u0430\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u043E\u043C\r\n\u0433\u043E\u0441\u0442\u0435.\r"
+  storyText: The pain in my chest prevented me from concentrating on the mysterious
+    guest.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4794,7 +4715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 8.737377
     y: 1061.527
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4841,12 +4762,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: "\u042F \u043C\u043E\u043B\u0447\u0430 \u0441\u043C\u043E\u0442\u0440\u0435\u043B
-    \u0432 \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u0441\u0438\u043B\u0443\u044D\u0442\u0430,
-    \u043F\u043E\u0445\u043E\u0436\u0435\u0433\u043E \u043D\u0430 \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430,
-    \u043D\u043E\r\n\u0447\u0435\u0440\u0435\u0437 \u043D\u0435\u0441\u043A\u043E\u043B\u044C\u043A\u043E
-    \u0448\u0430\u0433\u043E\u0432 \u043E\u043D \u0441\u043B\u043E\u0432\u043D\u043E
-    \u0438\u0441\u0447\u0435\u0437."
+  storyText: I looked silently toward the human-looking silhouette, but after a few
+    steps, it was as if it had disappeared.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4875,7 +4792,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -77.565125
     y: 1067.0726
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4922,10 +4839,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 84
   indentLevel: 0
-  storyText: "\u042D\u0442\u043E \u0431\u044B\u043B \u043F\u0435\u0440\u0432\u044B\u0439
-    \u0440\u0430\u0437, \u043A\u043E\u0433\u0434\u0430 \u043C\u043D\u0435 \u043F\u0440\u0438\u0448\u043B\u043E\u0441\u044C
-    \u043F\u0440\u043E\u0438\u0437\u043D\u0435\u0441\u0442\u0438 \u0445\u043E\u0442\u044C
-    \u0441\u043B\u043E\u0432\u043E."
+  storyText: It was the first time I had to say a word.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4954,7 +4868,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -76.47272
     y: 986.4016
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5001,9 +4915,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 81
   indentLevel: 0
-  storyText: "\u041C\u043E\u044F \u0433\u0440\u0443\u0434\u044C \u0441\u043B\u043E\u0432\u043D\u043E
-    \u0431\u044B\u043B\u0430 \u0447\u0435\u043C-\u0442\u043E \u043D\u0430\u043F\u043E\u043B\u043D\u0435\u043D\u0430,
-    \u0430 \u0434\u044B\u0445\u0430\u043D\u0438\u0435 \u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B\u043E\u0441\u044C\r\n\u043D\u0435\u0432\u044B\u043D\u043E\u0441\u0438\u043C\u044B\u043C."
+  storyText: My chest felt like it was filled with something, and my breathing was
+    becoming unbearable.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5032,7 +4945,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 10.670082
     y: 983.3751
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5079,9 +4992,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 78
   indentLevel: 0
-  storyText: "\u042F \u043A\u0430\u043A \u0431\u0443\u0434\u0442\u043E \u043F\u0440\u043E\u0445\u0440\u0438\u043F\u0435\u043B,
-    \u043D\u0435 \u0437\u043D\u0430\u044F, \u0443\u0441\u043B\u044B\u0448\u0430\u043B
-    \u043B\u0438 \u043E\u043D \u043C\u0435\u043D\u044F."
+  storyText: "I sort of wheezed, not knowing if he heard me.\r"
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5110,7 +5021,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 5.523693
     y: 906.6206
-    width: 63.636368
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5157,11 +5068,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 75
   indentLevel: 0
-  storyText: "\u042F \u0441\u043E\u0432\u0441\u0435\u043C \u043F\u043E\u0442\u0435\u0440\u044F\u043B
-    \u0433\u043E\u043B\u043E\u0441, \u0440\u0430\u043D\u044C\u0448\u0435 \u044F \u044D\u0442\u043E\u0433\u043E
-    \u043D\u0435 \u0437\u0430\u043C\u0435\u0447\u0430\u043B, \u043C\u043E\u0436\u0435\u0442\r\n\u0431\u044B\u0442\u044C,
-    \u043F\u043E\u0442\u043E\u043C\u0443 \u0447\u0442\u043E \u044F \u0437\u0434\u0435\u0441\u044C
-    \u043D\u0435 \u0433\u043E\u0432\u043E\u0440\u0438\u043B."
+  storyText: I completely lost my voice, I hadn't noticed it before, probably because
+    I didn't speak here.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5190,7 +5098,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -79.93849
     y: 911.66266
-    width: 63.636368
+    width: 64.06249
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5237,8 +5145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 72
   indentLevel: 0
-  storyText: "\"\u042D\u0439, \u0447\u0442\u043E \u0442\u044B \u0437\u0434\u0435\u0441\u044C
-    \u0434\u0435\u043B\u0430\u0435\u0448\u044C\""
+  storyText: '"Hey, what are you doing here?'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5267,7 +5174,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -82.45181
     y: 838.3089
-    width: 61.36364
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5314,8 +5221,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 69
   indentLevel: 0
-  storyText: "\u0427\u0435\u0441\u0442\u043D\u043E \u0433\u043E\u0432\u043E\u0440\u044F,
-    \u044F \u0434\u0430\u0436\u0435 \u043D\u0435 \u043C\u043E\u0433 \u043A\u0440\u0438\u0447\u0430\u0442\u044C."
+  storyText: Honestly, I couldn't even scream.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5344,7 +5250,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 6.2295227
     y: 842.2652
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5391,12 +5297,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: "\u042F \u043C\u043E\u0433\u0443 \u043F\u043E\u0434\u043E\u0439\u0442\u0438
-    \u043A\u0430\u043A \u043C\u043E\u0436\u043D\u043E \u0431\u043B\u0438\u0436\u0435,
-    \u043D\u043E \u0441\u0442\u043E\u0438\u0442 \u0434\u0435\u0440\u0436\u0430\u0442\u044C
-    \u0434\u0438\u0441\u0442\u0430\u043D\u0446\u0438\u044E,\r\n\u043C\u0430\u043B\u043E
-    \u043B\u0438 \u0447\u0442\u043E, \u043E\u043D \u043D\u0435 \u0441\u043E\u0432\u0441\u0435\u043C
-    \u0434\u0440\u0443\u0436\u0435\u043B\u044E\u0431\u0435\u043D.\r"
+  storyText: I can get as close as I can, but it's worth keeping my distance, he's
+    not exactly friendly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5425,7 +5327,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 3.0567932
     y: 768.989
-    width: 62.500004
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5472,10 +5374,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 63
   indentLevel: 0
-  storyText: "\u0421\u043A\u043E\u043B\u044C\u043A\u043E \u0432\u0440\u0435\u043C\u0435\u043D\u0438
-    \u044F \u043F\u0440\u043E\u0432\u0435\u043B \u0432 \u044D\u0442\u043E\u043C \u043C\u0435\u0441\u0442\u0435,
-    \u043D\u043E \u0434\u0440\u0443\u0433\u0438\u0445 \u0437\u0434\u0435\u0441\u044C
-    \u043F\u043E\u043A\u0430\r\n\u043D\u0435 \u0432\u0438\u0434\u0435\u043B."
+  storyText: How much time I've spent in this place, but the others here so far I
+    haven't seen.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5551,11 +5451,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: "\u0421 \u043A\u0430\u043A\u0438\u0445 \u043F\u043E\u0440 \u0437\u0434\u0435\u0441\u044C
-    \u043F\u043E\u044F\u0432\u0438\u043B\u0438\u0441\u044C \u0434\u0440\u0443\u0433\u0438\u0435
-    \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u043A\u0438?
-    \u042F\r\n\u043F\u043E\u0434\u0443\u043C\u0430\u043B, \u0447\u0442\u043E \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E,
-    \u044F \u0437\u0434\u0435\u0441\u044C \u0435\u0434\u0438\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0439.\r"
+  storyText: "Since when have there been other travelers here? \r\nI thought I might
+    be the only one here."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5631,12 +5528,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 57
   indentLevel: 0
-  storyText: "\u042F \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u043E\u0439\u0442\u0438
-    \u0438 \u0443\u0437\u043D\u0430\u0442\u044C, \u0447\u0442\u043E \u043E\u043D
-    \u0437\u0434\u0435\u0441\u044C \u0434\u0435\u043B\u0430\u0435\u0442, \u0448\u0430\u043D\u0441
-    \u0437\u0430\u0432\u0435\u0441\u0442\u0438\r\n\u043D\u043E\u0432\u044B\u0445
-    \u0434\u0440\u0443\u0437\u0435\u0439 \u0431\u044B\u043B \u0431\u044B \u043E\u0447\u0435\u043D\u044C
-    \u043A\u0441\u0442\u0430\u0442\u0438.\r"
+  storyText: I should go and find out what he's doing here, a chance to make new
+    friends would come in handy.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5712,7 +5605,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 54
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E? \u041A\u0442\u043E \u044D\u0442\u043E \u0442\u0430\u043C?"
+  storyText: What? Who's there?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5788,10 +5681,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: "\u0421\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u0441\u044F \u043F\u0440\u043E\u0445\u043B\u0430\u0434\u043D\u043E,
-    \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u044F \u0447\u0443\u0432\u0441\u0442\u0432\u0443\u044E
-    \u043B\u0435\u0433\u043A\u0438\u0439 \u0432\u0435\u0442\u0435\u0440,\r\n\u043F\u0440\u043E\u0431\u0435\u0433\u0430\u044E\u0449\u0438\u0439
-    \u043F\u043E \u043C\u043E\u0438\u043C \u0432\u043E\u043B\u043E\u0441\u0430\u043C.\r"
+  storyText: It's getting chilly, I think I feel a light breeze, running through
+    my hair.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5867,10 +5758,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: "\u041C\u043E\u0435 \u0432\u043E\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0435,
-    \u0442\u043E\u043B\u044C\u043A\u043E \u043E\u043D\u043E \u043C\u043E\u0433\u043B\u043E
-    \u0441\u043E\u0437\u0434\u0430\u0442\u044C \u0442\u0430\u043A\u043E\u0435, \u043D\u043E
-    \u0447\u0442\u043E \u0441\u0442\u0430\u043B\u043E\r\n\u043F\u0440\u0438\u0447\u0438\u043D\u043E\u0439.\r"
+  storyText: My imagination, only it could create such a thing, but what was the
+    cause.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5897,8 +5786,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -3.1784897
-    y: 567.3583
+    x: -4.2773914
+    y: 568.45715
     width: 60
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -6204,7 +6093,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -42.52321
     y: 428.73532
-    width: 117.04548
+    width: 114.06246
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6299,11 +6188,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 340
   indentLevel: 0
-  storyText: "\u042F \u043D\u0435 \u0441\u0442\u0430\u043B \u043E\u0442\u0432\u043B\u0435\u043A\u0430\u0442\u044C\u0441\u044F
-    \u0431\u043E\u043B\u044C\u0448\u0435 \u043D\u0430 \u0433\u043E\u043B\u043E\u0441\u0430,
-    \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u0441\u043B\u0435\u0434\u043E\u0432\u0430\u0442\u044C\r\n\u0437\u0430
-    \u0441\u0432\u043E\u0435\u0439 \u0446\u0435\u043B\u044C\u044E \u0438 \u0432\u044B\u0431\u0438\u0440\u0430\u0442\u044C\u0441\u044F
-    \u043E\u0442 \u0441\u044E\u0434\u0430."
+  storyText: I didn't get distracted by the voices anymore, I need to follow my goal
+    and get out of here.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6330,10 +6216,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 339
   indentLevel: 0
-  storyText: "\u042F \u0441\u043D\u043E\u0432\u0430 \u0443\u0441\u043B\u044B\u0448\u0430\u043B
-    \u0433\u043E\u043B\u043E\u0441, \u043D\u043E \u0442\u0430\u043A \u0438 \u043D\u0435
-    \u0441\u043C\u043E\u0433 \u043F\u043E\u043D\u044F\u0442\u044C \u0447\u0435\u043C
-    \u044F \u043C\u043E\u0433\u0443\r\n\u043F\u043E\u043C\u043E\u0447\u044C.\r"
+  storyText: I heard the voice again, and I knew I was on the right track.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6360,12 +6243,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 338
   indentLevel: 0
-  storyText: "\u041C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E \u043D\u0430\u0439\u0442\u0438
-    \u0442\u043E\u0433\u043E \u0447\u0435\u043B\u043E\u0432\u0435\u043A\u0430 \u0431\u0435\u0437
-    \u043B\u0438\u0446\u0430, \u0432\u043E\u0437\u043C\u043E\u0436\u043D\u043E \u044F
-    \u043C\u043E\u0433\u0443 \u0435\u043C\u0443\r\n\u043F\u043E\u043C\u043E\u0447\u044C
-    \u0438 \u043E\u043D \u0441\u043A\u0430\u0436\u0435\u0442 \u043A\u0443\u0434\u0430
-    \u043C\u043D\u0435 \u0438\u0434\u0442\u0438 \u0434\u0430\u043B\u044C\u0448\u0435."
+  storyText: I need to find that man without a face, maybe I can help him and he
+    can tell me where to go next.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6392,8 +6271,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 337
   indentLevel: 0
-  storyText: "\u0421\u0432\u0435\u0442 \u043C\u043E\u0436\u0435\u0442 \u0431\u044B\u0442\u044C
-    \u0440\u0430\u0437\u043D\u044B\u0439."
+  storyText: The light can be different.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6470,7 +6348,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 576.2196
     y: 1605.6079
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6517,7 +6395,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 311
   indentLevel: 0
-  storyText: "\"\u041F\u043E\u043C\u043E\u0433\u0438 \u0438\u043C, \u043F\u043E\u043C\u043E\u0433\u0438\""
+  storyText: '"Help them, help them."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6546,7 +6424,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 427.89108
     y: 1443.204
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6594,11 +6472,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 308
   indentLevel: 0
-  storyText: "\u041C\u043D\u0435 \u0431\u044B \u043A\u0442\u043E \u043F\u043E\u043C\u043E\u0433,
-    \u043F\u043E\u0447\u0435\u043C\u0443 \u044F \u0434\u043E\u043B\u0436\u0435\u043D
-    \u043F\u043E\u043C\u043E\u0433\u0430\u0442\u044C \u0442\u0435\u043C \u043A\u0442\u043E
-    \u043D\u0435 \u043C\u043E\u0436\u0435\u0442\r\n\u043F\u043E\u043C\u043E\u0447\u044C
-    \u043C\u043D\u0435?"
+  storyText: I wish someone would help me, why should I help those who can't help
+    me?
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6627,7 +6502,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 428.06754
     y: 1497.204
-    width: 63.636368
+    width: 62.499992
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6675,9 +6550,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 302
   indentLevel: 0
-  storyText: "\u041F\u043E\u0434\u043E\u0436\u0434\u0438, \u0447\u0442\u043E \u0435\u0441\u043B\u0438
-    \u044F \u0434\u043E\u043B\u0436\u0435\u043D \u043F\u043E\u043C\u043E\u0447\u044C
-    \u0442\u0435\u043D\u044F\u043C \u0430 \u043D\u0435 \u043E\u043D\u0438 \u043C\u043D\u0435."
+  storyText: Wait, what if I'm supposed to help the shadows and not them help me.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6706,7 +6579,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 530.0438
     y: 1442.9988
-    width: 69.31819
+    width: 68.74999
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6734,12 +6607,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 300
   indentLevel: 0
-  storyText: "\u042F \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u043B \u0438\u0434\u0442\u0438
-    \u0432\u043F\u0435\u0440\u0451\u0434 \u0441 \u043D\u0430\u0434\u0435\u0436\u0434\u043E\u0439
-    \u043D\u0430 \u0442\u043E \u0447\u0442\u043E \u043A\u043E\u0433\u0434\u0430 \u043D\u0435
-    \u0431\u0443\u0434\u044C \u044F\r\n\u0432\u0441\u0435 \u0436\u0435 \u0432\u044B\u0439\u0434\u0443
-    \u043D\u0430 \u0441\u0432\u0435\u0442 \u043E \u043A\u043E\u0442\u043E\u0440\u043E\u043C
-    \u043C\u043D\u0435 \u0441\u043A\u0430\u0437\u0430\u043B \u0433\u043E\u043B\u043E\u0441."
+  storyText: I kept walking forward in the hope that someday I would I would reach
+    the light the voice had told me about.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6766,8 +6635,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 299
   indentLevel: 0
-  storyText: "\u0423\u0441\u043B\u044B\u0448\u0430\u043B \u044F \u0432 \u043E\u0442\u0432\u0435\u0442
-    \u043D\u0430 \u0441\u0432\u043E\u0439 \u0448\u0435\u043F\u043E\u0442."
+  storyText: I heard in response to my whisper.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6794,7 +6662,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 298
   indentLevel: 0
-  storyText: "\"\u0418\u0434\u0438 \u043D\u0430 \u0441\u0432\u0435\u0442\"\r"
+  storyText: '"Walk into the light."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6821,9 +6689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 297
   indentLevel: 0
-  storyText: "\u041F\u0440\u043E\u0448\u0435\u043F\u0442\u0430\u043B \u044F \u0432
-    \u043D\u0430\u0434\u0435\u0436\u0434\u0435 \u0447\u0442\u043E \u0438 \u043C\u0435\u043D\u044F
-    \u0441\u043B\u044B\u0448\u0430\u043B\u0438."
+  storyText: I whispered, hoping to be heard.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6850,8 +6716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 296
   indentLevel: 0
-  storyText: "\" \u041A\u0443\u0434\u0430 \u043C\u043D\u0435 \u0438\u0434\u0442\u0438
-    \""
+  storyText: '"Where do I go?"'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6878,10 +6743,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 295
   indentLevel: 0
-  storyText: "\u0413\u043E\u043B\u043E\u0441 \u043F\u043E\u0432\u0442\u043E\u0440\u0438\u043B\u0441\u044F
-    \u0438 \u044F \u043E\u043A\u043E\u043D\u0447\u0430\u0442\u0435\u043B\u044C\u043D\u043E
-    \u0443\u0431\u0435\u0434\u0438\u043B\u0441\u044F, \u043A\u0442\u043E \u0442\u043E
-    \u0432\u0441\u0435 \u0436\u0435 \u043C\u043D\u0435\r\n\u043F\u043E\u043C\u043E\u0433\u0430\u0435\u0442.\r"
+  storyText: The voice repeated and I was finally convinced that someone was helping
+    me after all.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6908,11 +6771,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 294
   indentLevel: 0
-  storyText: "\u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u044D\u0442\u043E\u0433\u043E
-    \u043E\u0431\u044A\u044F\u0441\u043D\u0438\u0442\u044C \u043D\u043E, \u0447\u0443\u0432\u0441\u0442\u0432\u043E
-    \u0431\u0443\u0434\u0442\u043E \u043A\u0442\u043E-\u0442\u043E \u0445\u043E\u0447\u0435\u0442
-    \u043C\u043D\u0435\r\n\u043F\u043E\u043C\u043E\u0447\u044C \u043D\u0435 \u043F\u043E\u043A\u0438\u0434\u0430\u043B\u043E
-    \u043C\u0435\u043D\u044F.\r"
+  storyText: I can't explain it, but the feeling as if someone wanted to help me
+    never left me.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6939,9 +6799,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 293
   indentLevel: 0
-  storyText: "\u042F \u0441\u043D\u043E\u0432\u0430 \u0443\u0441\u043B\u044B\u0448\u0430\u043B
-    \u0433\u043E\u043B\u043E\u0441. \u041D\u043E \u0432 \u044D\u0442\u043E\u0442
-    \u0440\u0430\u0437 \u043E\u043D \u0431\u044B\u043B \u0434\u0440\u0443\u0436\u0435\u043B\u044E\u0431\u043D\u044B\u043C."
+  storyText: I heard the voice again. But this time it was friendly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6968,9 +6826,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 292
   indentLevel: 0
-  storyText: "\u0427\u0442\u043E \u0436\u0435, \u0442\u0430\u043A \u0438\u043B\u0438
-    \u0438\u043D\u0430\u0447\u0435 \u043C\u043D\u0435 \u043D\u0443\u0436\u043D\u043E
-    \u0438\u0434\u0442\u0438."
+  storyText: Well, either way I have to go.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6997,12 +6853,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 291
   indentLevel: 0
-  storyText: "\u042F \u043D\u0435 \u043C\u043E\u0433\u0443 \u044D\u0442\u043E\u0433\u043E
-    \u043F\u043E\u0437\u0432\u043E\u043B\u0438\u0442\u044C, \u043C\u043D\u0435 \u0437\u0434\u0435\u0441\u044C
-    \u043D\u0435 \u043D\u0440\u0430\u0432\u0438\u0442\u044C\u0441\u044F.\r\n\u0414\u0430
-    \u0438 \u043C\u0435\u0441\u0442\u043D\u044B\u043C \u044F \u043F\u043E\u0445\u043E\u0436\u0435
-    \u0442\u043E\u0436\u0435 \u043D\u0435 \u043E\u0447\u0435\u043D\u044C \u0442\u043E
-    \u0438 \u043D\u0440\u0430\u0432\u043B\u044E\u0441\u044C."
+  storyText: 'I can''t allow that, I don''t like it here.
+
+    And the locals don''t
+    seem to like me very much either.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7029,7 +6883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 290
   indentLevel: 0
-  storyText: "\"\u041D\u0435 \u0441\u043C\u043E\u0436\u0435\u0448\u044C \u0443\u0431\u0435\u0436\u0430\u0442\u044C\""
+  storyText: '"You can''t run away."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7056,8 +6910,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 289
   indentLevel: 0
-  storyText: "\"\u0422\u044B \u043D\u0435 \u0441\u043C\u043E\u0436\u0435\u0448\u044C
-    \u0443\u0431\u0435\u0436\u0430\u0442\u044C\""
+  storyText: '"You can''t run."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7084,8 +6937,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 288
   indentLevel: 0
-  storyText: "\"\u0422\u044B \u043E\u0441\u0442\u0430\u043D\u0435\u0448\u044C\u0441\u044F
-    \u0437\u0434\u0435\u0441\u044C \u043D\u0430\u0432\u0441\u0435\u0433\u0434\u0430\""
+  storyText: '"You''re staying here forever."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7112,7 +6964,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 287
   indentLevel: 0
-  storyText: "\u0418 \u044F \u043D\u0435 \u043C\u043E\u0433\u0443 \u0435\u0435 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C."
+  storyText: And I can't change that.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7139,11 +6991,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 286
   indentLevel: 0
-  storyText: "\u0420\u0430\u043D\u044C\u0448\u0435 \u044F \u043D\u0435 \u0441\u043C\u043E\u0442\u0440\u0435\u043B
-    \u043D\u0430 \u043D\u0438\u0445, \u0442\u0435\u043F\u0435\u0440\u044C \u0432\u0438\u0436\u0443,
-    \u044F \u0432\u043E\u043E\u0431\u0449\u0435 \u043D\u0435 \u0434\u0435\u043B\u0430\u044E\r\n\u0448\u0430\u0433\u043E\u0432,
-    \u044F \u043F\u0440\u043E\u0441\u0442\u043E \u043B\u0435\u0447\u0443 \u0441 \u0442\u043E\u0439
-    \u0436\u0435 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u044C\u044E.\r"
+  storyText: I didn't look at them before, now I see, I don't take any steps, I'm
+    just flying at the same speed.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7170,12 +7019,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 285
   indentLevel: 0
-  storyText: "\u042F \u043F\u0440\u043E\u0441\u0442\u043E \u0431\u0435\u0436\u0430\u043B,
-    \u043D\u0435 \u043E\u0433\u043B\u044F\u0434\u044B\u0432\u0430\u044F\u0441\u044C,
-    \u043D\u043E \u043C\u043E\u0439 \u0431\u0435\u0433 \u044D\u0442\u043E \u0431\u044B\u043B
-    \u0434\u0430\u0436\u0435 \u043D\u0435\r\n\u0431\u0435\u0433, \u044F \u043F\u0440\u043E\u0441\u0442\u043E
-    \u043F\u0430\u0440\u0438\u043B, \u043F\u0430\u0440\u0438\u043B, \u043A\u0430\u043A
-    \u0438 \u0440\u0430\u043D\u044C\u0448\u0435, \u043C\u043E\u0438 \u043D\u043E\u0433\u0438...\r"
+  storyText: 'I just ran without looking back, but my running was not even running,
+    I was just floating, hovering, as before, my feet...
+
+'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7202,11 +7049,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 284
   indentLevel: 0
-  storyText: "\u041E\u043D \u043E\u0431\u0435\u0440\u043D\u0443\u043B\u0441\u044F,
-    \u0438 \u043C\u043D\u0435 \u0432\u0434\u0440\u0443\u0433 \u0441\u0442\u0430\u043B\u043E
-    \u043D\u0435 \u043F\u043E \u0441\u0435\u0431\u0435: \u0443 \u043D\u0435\u0433\u043E
-    \u043D\u0435 \u0431\u044B\u043B\u043E\r\n\u043B\u0438\u0446\u0430, \u0441\u043E\u0432\u0441\u0435\u043C
-    \u043D\u0435 \u0431\u044B\u043B\u043E.\r"
+  storyText: 'He turned around, and suddenly I felt uneasy: he had no his face, he
+    wasn''t there at all.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7233,10 +7077,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 283
   indentLevel: 0
-  storyText: "\u042F \u043F\u043E\u0434\u043E\u0448\u0435\u043B \u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
-    \u0431\u043B\u0438\u0437\u043A\u043E, \u0447\u0442\u043E\u0431\u044B \u0434\u0430\u0436\u0435
-    \u043C\u043E\u0439 \u0441\u043B\u0430\u0431\u044B\u0439 \u0448\u0435\u043F\u043E\u0442\r\n\u043F\u0440\u0438\u0432\u043B\u0435\u043A
-    \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435 \u043D\u0435\u0437\u043D\u0430\u043A\u043E\u043C\u0446\u0430."
+  storyText: I got close enough that even my faint whisper attracted the stranger's
+    attention.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7263,8 +7105,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 282
   indentLevel: 0
-  storyText: "\u0413\u043E\u0432\u043E\u0440\u0438\u043B \u044F \u0441\u0435\u0431\u0435
-    \u0441\u043D\u043E\u0432\u0430 \u0438 \u0441\u043D\u043E\u0432\u0430"
+  storyText: I told myself over and over again
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7291,8 +7132,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 281
   indentLevel: 0
-  storyText: "\"\u041D\u0435 \u0441\u0432\u043E\u0434\u0438 \u0441 \u043D\u0435\u0433\u043E
-    \u0433\u043B\u0430\u0437\""
+  storyText: '"Don''t take your eyes off him."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7319,10 +7159,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 280
   indentLevel: 0
-  storyText: "\u0421\u0438\u043B\u0443\u044D\u0442 \u043E\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u043B\u0441\u044F,
-    \u043A\u0430\u0436\u0435\u0442\u0441\u044F, \u0442\u0435\u043F\u0435\u0440\u044C
-    \u0443 \u043C\u0435\u043D\u044F \u0435\u0441\u0442\u044C \u0448\u0430\u043D\u0441
-    \u0434\u043E\u0433\u043D\u0430\u0442\u044C\r\n\u0435\u0433\u043E.\r"
+  storyText: The silhouette has stopped, and now I think I have a chance to catch
+    up with it.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7349,8 +7187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 279
   indentLevel: 0
-  storyText: "\u041D\u043E \u043E\u043D, \u043A\u0430\u0437\u0430\u043B\u043E\u0441\u044C,
-    \u0442\u043E\u0436\u0435 \u0443\u0441\u043A\u043E\u0440\u0438\u043B\u0441\u044F"
+  storyText: But he seemed to speed up, too.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7377,7 +7214,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 278
   indentLevel: 0
-  storyText: "\"\u042D\u0439, \u043F\u043E\u0434\u043E\u0436\u0434\u0438 \u043C\u0438\u043D\u0443\u0442\u043A\u0443\""
+  storyText: '"Hey, wait a minute."'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7404,10 +7241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 277
   indentLevel: 0
-  storyText: "\u042F \u043C\u043E\u0433 \u0431\u044B, \u043D\u043E \u0447\u0442\u043E,
-    \u0435\u0441\u043B\u0438 \u0431\u044B \u0434\u043D\u0435\u0432\u043D\u0438\u043A
-    \u043D\u0430\u0448\u043B\u0438?\r\n\u0414\u0430, \u043E\u0434\u043D\u043E\u0437\u043D\u0430\u0447\u043D\u043E,
-    \u044F \u0431\u044B \u0441\u0433\u043E\u0440\u0435\u043B \u043E\u0442 \u0441\u0442\u044B\u0434\u0430."
+  storyText: 'I could, but what if they found the diary?
+
+    Yes, unequivocally,
+    I would burn with shame.'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7420,6 +7257,24 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &1159838862
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1159838618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1902400ccc99b45d69ad01cb86b57d0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 345
+  indentLevel: 0
+  musicClip: {fileID: 8300000, guid: 87acb7600ba5e9b4bb8fd302c7691ea0, type: 3}
+  atTime: 0
+  loop: 1
+  fadeDuration: 1
 --- !u!1001 &1707043382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7454,11 +7309,11 @@ PrefabInstance:
     - target: {fileID: 743080639566521027, guid: 817c39311ffa4b34ca003602f357bee9, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: 7ad7f4e00c04d574b868e9b5bc22deed, type: 3}
+      objectReference: {fileID: 12800000, guid: 155240ec005947a4a8f10951272f34fb, type: 3}
     - target: {fileID: 743080640569995727, guid: 817c39311ffa4b34ca003602f357bee9, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: 7ad7f4e00c04d574b868e9b5bc22deed, type: 3}
+      objectReference: {fileID: 12800000, guid: 155240ec005947a4a8f10951272f34fb, type: 3}
     - target: {fileID: 743080641270906736, guid: 817c39311ffa4b34ca003602f357bee9, type: 3}
       propertyPath: m_Name
       value: SayDialog
@@ -7767,7 +7622,7 @@ PrefabInstance:
     - target: {fileID: 465513983515754681, guid: 864f5d6cc7308f54dbeab3e9fde84722, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: 7ad7f4e00c04d574b868e9b5bc22deed, type: 3}
+      objectReference: {fileID: 12800000, guid: 155240ec005947a4a8f10951272f34fb, type: 3}
     - target: {fileID: 465513983515754681, guid: 864f5d6cc7308f54dbeab3e9fde84722, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 1
