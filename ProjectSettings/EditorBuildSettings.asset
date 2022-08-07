@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DoGame.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c4e0479d10ccf6b49986428023d55482
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 901ef9d73b3d82e468f61938e5f279ec
   m_configObjects: {}
