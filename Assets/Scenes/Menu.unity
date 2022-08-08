@@ -1933,6 +1933,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6111607489822606949, guid: 457c23843e0969141949e94155571753, type: 3}
+      propertyPath: m_text
+      value: 'Scriptwriter - Ligness
+
+        \n
+
+        2D-Artist - Kiwi
+
+        2D-Artist
+        - Alalord
+
+        \n
+
+        Unity Developer - REIONE
+
+        \n
+
+        Coder
+        - Antos Codes'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 457c23843e0969141949e94155571753, type: 3}
 --- !u!223 &4277060396873572074 stripped
